@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>List</title>
+        <link rel="stylesheet" href="./styles/list.css">
     </head>
     <body>
         <div>
-            <div>
-                <a href="index.html"><img src="assests/images/logo.png" alt="logo" height="200px" width="150px"></a>
-                <a href="login.html">Login</a> 
-            </div>
-            <div>
-                <div><a href="list.html">List View</a><br>
-                <a href="list.html">Map View</a></div>
+            <header>
+                <div class="Header">
+                    <a href="index.html"><img src="assests/images/logo.png" alt="logo" height="200px" width="150px"></a>
+                    <a href="login.html">Login</a>
+                </div></header>
+            <div class="section">
+                <div><ul><li><a href="#list-view">List View</a></li>
+                    <li><a href="#map-view">Map View</a></li></div></ul>
                 <a href="detail.html"><div>
-                    <div><img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
+                    <div id="list-view"><img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
                     <h3>Radisson Blu Hotel</h3>
                     <p>5 Star<br>
                     New Delhi</p></div></a>
@@ -26,18 +31,19 @@
                     <p>4.0 Star<br>
                     New Delhi</p></div>
                 </div>
-                <div>
+            </div>
+                <div id="map-view">
                     <img src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png">
                     <h3>MAP VIEW</h3> 
                 </div>
-            </div>
-            <div>
-                <div><a href="contact.html">Contact Us</a></div>
-                <div><a href="https://www.facebook.com" target="_blank"><img src="assests/images/facebook.png" alt="logo" height="20px" width="22px"></a>
+            
+            <footer>
+                <a href="contact.html">Contact Us</a><br>
+                <a href="https://www.facebook.com" target="_blank"><img src="assests/images/facebook.png" alt="logo" height="20px" width="22px"></a>
                 <a href="https://www.instagram.com" target="_blank"><img src="assests/images/instagram.png" alt="logo" height="20px" width="22px"></a>
-                <a href="https://twitter.com" target="_blank"><img src="assests/images/twitter.png" alt="logo" height="20px" width="22px"></a></div>
-                <div><p>&copy; 2020 ROOM SEARCH PVT LTD</p></div>
-            </div>
+                <a href="https://twitter.com" target="_blank"><img src="assests/images/twitter.png" alt="logo" height="20px" width="22px"></a>
+                <p>&copy; 2020 ROOM SEARCH PVT LTD</p>
+            </footer>
         </div>
         </body>
         </html>

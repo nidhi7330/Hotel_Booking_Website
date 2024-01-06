@@ -1,0 +1,30 @@
+body{
+    height: auto;
+    width: auto;
+}
+
+*{
+    height: auto;
+    width: auto;
+}
+
+div{
+    height: auto;
+    width: auto;
+}
+
+.Header img {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+.section div img {
+    height: 150px;
+    width: 250px;
+}
+
+footer a img {
+    height: 20px;
+    width: 22px;
+}
