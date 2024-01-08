@@ -1,9 +1,12 @@
 body{
+    background-color: #e0e0e0;
+    margin: 0;
     height: auto;
-    width: auto;
+    width: auto; 
 }
 
 *{
+    margin: 0%;
     height: auto;
     width: auto;
 }
@@ -14,12 +17,14 @@ div{
 }
 
 .Header img {
+    
     border-radius: 50%;
     height: 60px;
     width: 60px;
 }
 
 .section div img {
+    
     height: 150px;
     width: 250px;
 }
@@ -27,4 +32,20 @@ div{
 footer a img {
     height: 20px;
     width: 22px;
+}
+
+footer {
+    background-color: rosybrown; /* Add background color for the footer */
+}
+Header {
+    background-color: rosybrown; /* Add background color for the footer */
+}
+
+#list-view{
+    margin: 2%;
+}
+
+#list-views{
+    background-color: rgb(132,136,139);
+    width: 40%;
 }

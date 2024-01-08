@@ -1,9 +1,12 @@
 body{
+    background-color: #e0e0e0;
+    margin: 0;
     height: auto;
     width: auto;
 }
 
 *{
+    margin: 0%;
     height: auto;
     width: auto;
 }
@@ -20,6 +23,9 @@ div{
 }
 
 .Section img{
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 4% ;
     height: 500px;
     width: 500px;
 }
@@ -27,4 +33,24 @@ div{
 footer a img {
     height: 20px;
     width: 22px;
+}
+
+footer {
+    background-color: rosybrown; /* Add background color for the footer */
+}
+Header {
+    background-color: rosybrown; /* Add background color for the footer */
+}
+
+.Section form{
+    margin-bottom: 1%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.descrip {
+    margin-top: 1%; /* Adjust the top margin as needed */
+    margin-bottom: 2%; /* Adjust the bottom margin as needed */
+    margin-left: 4%; /* Adjust the left margin as needed */
+    margin-right: 4%; /* Adjust the right margin as needed */
 }

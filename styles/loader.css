@@ -1,0 +1,31 @@
+
+
+.loader {
+    overflow: hidden;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    background-color: rgb(14, 10, 10);    
+  }
+
+.loader>div{
+    height: 70px;
+    width: 70px;
+    border: 15px solid  #f3f3f3;
+    border-top-color:  #444444;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+    animation: none;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  
